@@ -1,67 +1,52 @@
-/* Reset & Box sizing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* Body layout */
 body {
   font-family: 'Outfit', sans-serif;
-  background-color: hsl(212, 45%, 89%); /* Slate 300 */
+  background-color: hsl(212, 45%, 89%);
   display: flex;
-  flex-direction: column;       /* Footer below card */
-  justify-content: center;      /* Vertical centering */
-  align-items: center;          /* Horizontal centering */
-  min-height: 100vh;            /* Full viewport height */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   padding: 20px;
 }
-
-/* Container for main content */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;       /* Ensure vertical stacking */
+  flex-direction: column;
 }
-
-/* Card styling */
 .card {
-  background-color: hsl(0, 0%, 100%); /* White */
+  background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   padding: 16px;
   width: 300px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-
-/* Card Image */
 .card img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 16px;
 }
-
-/* Card heading */
 .card h1 {
   font-size: 20px;
   font-weight: 700;
-  color: hsl(218, 44%, 22%); /* Slate 900 */
+  color: hsl(218, 44%, 22%);
   margin-bottom: 12px;
 }
-
-/* Card paragraph */
 .card p {
   font-size: 15px;
   font-weight: 400;
-  color: hsl(216, 15%, 48%); /* Slate 500 */
+  color: hsl(216, 15%, 48%);
 }
-
-/* Footer styling */
 footer {
-  margin-top: 20px;            /* Space between card and footer */
+  margin-top: 20px;
   text-align: center;
-  color: hsl(216, 15%, 48%);   /* Slate 500 */
+  color: hsl(216, 15%, 48%);
   font-size: 12px;
 }
 
@@ -73,8 +58,6 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-
-/* Optional: Screen-reader only text (if using in header) */
 .sr-only {
   position: absolute;
   width: 1px;
